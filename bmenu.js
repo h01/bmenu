@@ -50,7 +50,6 @@ var bmenu = {
 					i ++;
 				};
 			};
-			console.log(i);
 			menu.style.top = e.pageY + "px";
 			menu.style.left = e.pageX + "px";
 			if (i == 0) {
