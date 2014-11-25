@@ -7,7 +7,7 @@
 
 #### 使用方法：
 1.初始化
-```
+```js
 var menu1 = bmenu.init([
 {
 	text: '这个是菜单的文字，如果需要分隔符，则输入"---"',
@@ -21,12 +21,12 @@ var menu1 = bmenu.init([
 ]);
 ```
 2.绑定右键菜单
-```
+```js
 bmenu.bind(menu1, document);
 ```
 
 #### 或者更直接
-```
+```js
 bmenu.bind(bmenu.init([
 {
 	text: 'Hello!',
